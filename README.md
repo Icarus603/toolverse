@@ -1,8 +1,5 @@
 # 🌌 Toolverse
 
-[![GitHub stars](https://img.shields.io/github/stars/Icarus603/toolverse?style=social)](https://github.com/Icarus603/toolverse/stargazers)
-[![GitHub license](https://img.shields.io/github/license/Icarus603/toolverse)](https://github.com/Icarus603/toolverse/blob/main/LICENSE)
-[![Last updated](https://img.shields.io/github/last-commit/Icarus603/toolverse)](https://github.com/Icarus603/toolverse/commits/main)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 
