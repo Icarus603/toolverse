@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![Toolverse Banner](https://via.placeholder.com/800x200/0a192f/ffffff?text=Toolverse+-+AI+%E5%B7%A5%E5%85%B7%E5%AE%87%E5%AE%99)
-
 **探索、分析、评估 AI 工具生态系统的开源知识库**
 
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -43,7 +41,7 @@
 **Toolverse** 是一个集成了 🧠 **人工整理**、🤖 **自动采集** 与 🧪 **工具评测** 的开源 AI 工具知识库项目，致力于构建结构化、可追踪、可演化的 **AI 工具地图** 🗺️，服务广大开发者、研究者与数字创造者。
 
 <div align="center">
-    <img src="https://via.placeholder.com/600x150/0a192f/ffffff?text=AI+%E5%B7%A5%E5%85%B7%E5%9C%B0%E5%9B%BE" alt="AI工具地图" />
+
 </div>
 
 ---
@@ -80,7 +78,7 @@
 ## 📊 数据源与爬虫
 
 <div align="center">
-    <img src="https://via.placeholder.com/600x100/0a192f/ffffff?text=%E6%95%B0%E6%8D%AE%E6%BA%90%E7%94%9F%E6%80%81" alt="数据源生态" />
+
 </div>
 
 我们致力于从多样化的平台收集最新的 AI 工具信息，主要包括：
@@ -138,8 +136,6 @@
 
 <div align="center">
 
-![快速开始](https://via.placeholder.com/600x100/0a192f/ffffff?text=%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)
-
 </div>
 
 只需几步，即可在本地运行 Toolverse 或参与贡献：
@@ -196,7 +192,7 @@ git push origin main
 ## 🛠️ 环境配置
 
 <div align="center">
-    <img src="https://via.placeholder.com/600x100/0a192f/ffffff?text=%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE" alt="环境配置" />
+
 </div>
 
 推荐使用 `Python 3.10`。您可以通过 Conda 或 pip/venv 设置环境：
@@ -238,7 +234,7 @@ pip install -r requirements.txt
 ## 🔁 自动更新流程
 
 <div align="center">
-    <img src="https://via.placeholder.com/600x100/0a192f/ffffff?text=%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0%E6%B5%81%E7%A8%8B" alt="自动更新流程" />
+
 </div>
 
 项目通过 GitHub Actions 实现自动化，流程如下：
@@ -262,7 +258,7 @@ graph TD
 ## 📁 项目目录结构
 
 <div align="center">
-    <img src="https://via.placeholder.com/600x100/0a192f/ffffff?text=%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84" alt="项目结构" />
+
 </div>
 
 <details>
@@ -337,7 +333,7 @@ toolverse/
 ## 🛣️ 项目路线图
 
 <div align="center">
-    <img src="https://via.placeholder.com/600x100/0a192f/ffffff?text=%E9%A1%B9%E7%9B%AE%E8%B7%AF%E7%BA%BF%E5%9B%BE" alt="项目路线图" />
+
 </div>
 
 我们规划了以下发展阶段，持续迭代和完善 Toolverse：
@@ -372,7 +368,7 @@ toolverse/
 ## 🔮 未来展望
 
 <div align="center">
-    <img src="https://via.placeholder.com/600x150/0a192f/ffffff?text=%E6%9C%AA%E6%9D%A5%E5%B1%95%E6%9C%9B" alt="未来展望" />
+
 </div>
 
 Toolverse 的愿景是成为 AI 时代不可或缺的基础设施：
@@ -395,7 +391,7 @@ Toolverse 的愿景是成为 AI 时代不可或缺的基础设施：
 ## 🤝 如何参与贡献
 
 <div align="center">
-    <img src="https://via.placeholder.com/600x100/0a192f/ffffff?text=%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE" alt="参与贡献" />
+
 </div>
 
 我们热烈欢迎各种形式的贡献：
@@ -418,7 +414,7 @@ Toolverse 的愿景是成为 AI 时代不可或缺的基础设施：
 ## 👥 贡献者
 
 <div align="center">
-    <img src="https://via.placeholder.com/600x100/0a192f/ffffff?text=%E8%B4%A1%E7%8C%AE%E8%80%85" alt="贡献者" />
+
 </div>
 
 以下为贡献者（自动更新）：
@@ -438,7 +434,7 @@ Toolverse 的愿景是成为 AI 时代不可或缺的基础设施：
 ## 🙏 特别致谢
 
 <div align="center">
-    <img src="https://via.placeholder.com/600x100/0a192f/ffffff?text=%E7%89%B9%E5%88%AB%E8%87%B4%E8%B0%A2" alt="特别致谢" />
+
 </div>
 
 本项目的构建离不开以下优秀的技术和社区支持：
