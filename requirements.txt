@@ -1,0 +1,33 @@
+# Toolverse项目依赖 (兼容Python 3.10)
+# 爬虫相关
+praw>=7.6.0         # Reddit API
+requests>=2.28.0    # HTTP请求库
+beautifulsoup4>=4.11.0  # HTML解析
+selenium>=4.4.0     # 浏览器自动化（用于动态内容爬取）
+webdriver-manager>=3.8.0  # WebDriver管理
+playwright>=1.30.0  # 现代浏览器自动化（用于JS渲染页面爬取）
+
+# 数据处理相关
+pyyaml>=6.0         # YAML处理
+pandas>=1.4.0       # 数据处理与分析
+numpy>=1.22.0       # 科学计算
+nltk>=3.7.0         # 自然语言处理（用于文本分析）
+scikit-learn>=1.1.0 # 机器学习（用于分类和聚类）
+
+# 数据可视化相关
+matplotlib>=3.5.0   # 基础绘图
+seaborn>=0.11.0     # 统计可视化
+plotly>=5.9.0       # 交互式可视化
+
+# Web应用相关（可选）
+flask>=2.1.0        # Web框架
+jinja2>=3.1.0       # 模板引擎
+werkzeug>=2.1.0     # WSGI工具
+
+# 工具与测试
+tqdm>=4.64.0        # 进度条
+pytest>=7.1.0       # 单元测试
+pytest-cov>=3.0.0   # 测试覆盖率
+black>=22.3.0       # 代码格式化
+isort>=5.10.0       # Import排序
+flake8>=4.0.0       # 代码检查 

@@ -1,0 +1,179 @@
+# Toolverse 工具标签系统
+
+# 定义标签分组及其包含标签
+tags:
+  # 技术相关标签
+  technology:
+    name: "技术栈"
+    description: "工具使用的底层AI技术或模型"
+    tags:
+      # LLM相关
+      - name: "gpt"
+        aliases: ["chatgpt", "gpt-4", "gpt-3.5"]
+        description: "基于OpenAI GPT系列模型的工具"
+
+      - name: "llama"
+        aliases: ["meta-llama", "llama-2", "llama-3"]
+        description: "基于Meta Llama系列模型的工具"
+
+      - name: "claude"
+        aliases: ["anthropic", "claude-2", "claude-3"]
+        description: "基于Anthropic Claude系列模型的工具"
+
+      - name: "bert"
+        aliases: ["roberta", "distilbert"]
+        description: "基于BERT类编码器模型的工具"
+
+      - name: "gemini"
+        aliases: ["gemini-pro", "gemini-ultra", "google-gemini"]
+        description: "基于Google Gemini模型的工具"
+
+      # 图像相关
+      - name: "stable-diffusion"
+        aliases: ["sd", "sdxl"]
+        description: "基于Stable Diffusion的图像生成工具"
+
+      - name: "dalle"
+        aliases: ["dall-e", "dall-e-2", "dall-e-3"]
+        description: "基于DALL-E系列模型的图像生成工具"
+
+      - name: "midjourney"
+        aliases: ["mj"]
+        description: "基于Midjourney的图像生成工具"
+
+      # 多模态相关
+      - name: "clip"
+        aliases: ["openai-clip"]
+        description: "使用CLIP视觉-语言模型的工具"
+
+      - name: "whisper"
+        aliases: ["openai-whisper"]
+        description: "基于Whisper的语音识别工具"
+
+  # 功能相关标签
+  functionality:
+    name: "功能特性"
+    description: "工具的主要功能或特性"
+    tags:
+      - name: "summarization"
+        aliases: ["summary", "summarize"]
+        description: "文本摘要或总结功能"
+
+      - name: "translation"
+        aliases: ["translate", "multilingual"]
+        description: "翻译或多语言支持功能"
+
+      - name: "generation"
+        aliases: ["generate", "creator"]
+        description: "内容生成功能"
+
+      - name: "editing"
+        aliases: ["edit", "modify"]
+        description: "内容编辑或修改功能"
+
+      - name: "analysis"
+        aliases: ["analyze", "analytics"]
+        description: "数据或内容分析功能"
+
+      - name: "coding"
+        aliases: ["code-generation", "programming"]
+        description: "代码生成或编程辅助功能"
+
+      - name: "assistant"
+        aliases: ["helper", "aid"]
+        description: "提供辅助或助手功能"
+
+      - name: "customization"
+        aliases: ["personalization", "tailoring"]
+        description: "支持自定义或个性化的功能"
+
+  # 行业相关标签
+  industry:
+    name: "行业领域"
+    description: "适用的行业或领域"
+    tags:
+      - name: "education"
+        aliases: ["learning", "teaching"]
+        description: "教育或学习领域的工具"
+
+      - name: "healthcare"
+        aliases: ["medical", "health"]
+        description: "医疗健康领域的工具"
+
+      - name: "finance"
+        aliases: ["banking", "investment"]
+        description: "金融或财务领域的工具"
+
+      - name: "marketing"
+        aliases: ["advertising", "pr"]
+        description: "市场营销领域的工具"
+
+      - name: "design"
+        aliases: ["creative", "art"]
+        description: "设计或创意领域的工具"
+
+      - name: "research"
+        aliases: ["science", "academic"]
+        description: "研究或学术领域的工具"
+
+      - name: "entertainment"
+        aliases: ["media", "gaming"]
+        description: "娱乐或媒体领域的工具"
+
+  # 特性相关标签
+  features:
+    name: "技术特性"
+    description: "工具的技术特性或部署方式"
+    tags:
+      - name: "open-source"
+        aliases: ["oss", "opensource"]
+        description: "开源工具"
+
+      - name: "api-available"
+        aliases: ["has-api", "api"]
+        description: "提供API接口的工具"
+
+      - name: "self-hosted"
+        aliases: ["on-premise", "local"]
+        description: "可自托管的工具"
+
+      - name: "cloud-based"
+        aliases: ["saas", "web-based"]
+        description: "基于云的服务工具"
+
+      - name: "free"
+        aliases: ["free-tier", "no-cost"]
+        description: "免费或有免费层级的工具"
+
+      - name: "privacy-focused"
+        aliases: ["secure", "private"]
+        description: "注重隐私保护的工具"
+
+      - name: "real-time"
+        aliases: ["instant", "live"]
+        description: "提供实时处理或结果的工具"
+
+  # 用户体验相关标签
+  user_experience:
+    name: "用户体验"
+    description: "与用户体验相关的特点"
+    tags:
+      - name: "beginner-friendly"
+        aliases: ["easy-to-use", "simple"]
+        description: "适合初学者或易于使用的工具"
+
+      - name: "professional"
+        aliases: ["enterprise", "advanced"]
+        description: "面向专业用户或企业的工具"
+
+      - name: "collaborative"
+        aliases: ["team", "multi-user"]
+        description: "支持团队协作的工具"
+
+      - name: "cross-platform"
+        aliases: ["multi-platform", "compatible"]
+        description: "支持多个平台的工具"
+
+      - name: "mobile-friendly"
+        aliases: ["mobile", "responsive"]
+        description: "对移动设备友好的工具"

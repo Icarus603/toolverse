@@ -1,0 +1,185 @@
+# Toolverse 工具分类体系
+
+# 主分类及其子分类定义
+categories:
+  # 文本相关工具
+  text:
+    name: "文本"
+    icon: "📝"
+    description: "处理、生成或分析文本内容的工具"
+    subcategories:
+      writing:
+        name: "写作"
+        description: "辅助写作、创作或内容生成的工具"
+      translation:
+        name: "翻译"
+        description: "文本翻译或多语言处理工具"
+      summarization:
+        name: "摘要"
+        description: "提取文本摘要或关键信息的工具"
+      chat:
+        name: "聊天"
+        description: "对话或聊天机器人类工具"
+      coding:
+        name: "编程"
+        description: "代码生成、优化或辅助编程的工具"
+      search:
+        name: "搜索"
+        description: "信息检索或语义搜索工具"
+      analysis:
+        name: "分析"
+        description: "文本分析、情感分析或语义理解工具"
+
+  # 图像相关工具
+  image:
+    name: "图像"
+    icon: "🖼️"
+    description: "生成、编辑或处理图像的工具"
+    subcategories:
+      generation:
+        name: "生成"
+        description: "AI图像生成或创作工具"
+      editing:
+        name: "编辑"
+        description: "图像处理、修复或美化工具"
+      detection:
+        name: "检测"
+        description: "图像识别、物体检测或分类工具"
+      style_transfer:
+        name: "风格迁移"
+        description: "图像风格转换或迁移工具"
+      upscaling:
+        name: "超分辨率"
+        description: "图像放大或超分辨率工具"
+      graphic_design:
+        name: "平面设计"
+        description: "用于平面设计或创意制作的图像工具"
+
+  # 视频相关工具
+  video:
+    name: "视频"
+    icon: "🎬"
+    description: "视频生成、编辑或处理的工具"
+    subcategories:
+      generation:
+        name: "生成"
+        description: "AI视频生成或创作工具"
+      editing:
+        name: "编辑"
+        description: "视频剪辑、特效或后期处理工具"
+      animation:
+        name: "动画"
+        description: "创建或辅助制作动画的工具"
+      enhancement:
+        name: "增强"
+        description: "视频质量提升、修复或优化工具"
+      conversion:
+        name: "转换"
+        description: "视频格式转换或适配工具"
+
+  # 音频相关工具
+  audio:
+    name: "音频"
+    icon: "🔊"
+    description: "音频处理、生成或分析的工具"
+    subcategories:
+      speech:
+        name: "语音"
+        description: "语音识别、合成或处理工具"
+      music:
+        name: "音乐"
+        description: "音乐创作、生成或编辑工具"
+      sound_effects:
+        name: "音效"
+        description: "音效生成或处理工具"
+      audio_editing:
+        name: "音频编辑"
+        description: "音频混音、修复或编辑工具"
+      voice_conversion:
+        name: "声音转换"
+        description: "声音转换、克隆或模仿工具"
+
+  # 工作流自动化工具
+  workflow:
+    name: "工作流"
+    icon: "⚙️"
+    description: "自动化流程或集成多个工具的系统"
+    subcategories:
+      automation:
+        name: "自动化"
+        description: "任务自动化或流程自动化工具"
+      integration:
+        name: "集成"
+        description: "服务或工具集成平台"
+      nocode:
+        name: "无代码"
+        description: "无需编程的自动化或应用构建平台"
+      agents:
+        name: "智能代理"
+        description: "自主执行任务的AI代理系统"
+      pipelines:
+        name: "数据管道"
+        description: "数据处理或转换流程工具"
+
+  # 机器人相关工具
+  robotics:
+    name: "机器人"
+    icon: "🤖"
+    description: "与物理机器人或自动化硬件相关的工具"
+    subcategories:
+      control:
+        name: "控制"
+        description: "机器人控制或操作系统"
+      simulation:
+        name: "模拟"
+        description: "机器人或物理环境模拟工具"
+      vision:
+        name: "视觉"
+        description: "机器人视觉感知系统"
+      navigation:
+        name: "导航"
+        description: "机器人定位或路径规划工具"
+
+  # 多模态工具
+  multimodal:
+    name: "多模态"
+    icon: "🔄"
+    description: "同时处理多种类型数据的AI工具"
+    subcategories:
+      text_image:
+        name: "文本图像"
+        description: "文本与图像交互处理工具"
+      text_video:
+        name: "文本视频"
+        description: "文本与视频交互处理工具"
+      text_audio:
+        name: "文本音频"
+        description: "文本与音频交互处理工具"
+      vision_language:
+        name: "视觉语言"
+        description: "视觉与语言理解结合的工具"
+      comprehensive:
+        name: "综合多模态"
+        description: "处理三种或以上模态的综合工具"
+
+  # 其他类型工具
+  other:
+    name: "其他"
+    icon: "🔍"
+    description: "不属于上述类别的工具"
+    subcategories:
+      education:
+        name: "教育"
+        description: "AI辅助教育或学习工具"
+      research:
+        name: "研究"
+        description: "科学研究或专业领域辅助工具"
+      healthcare:
+        name: "医疗健康"
+        description: "医疗或健康相关AI工具"
+      finance:
+        name: "金融"
+        description: "金融或投资分析AI工具"
+      miscellaneous:
+        name: "杂项"
+        description: "其他未分类工具"
