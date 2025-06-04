@@ -155,7 +155,15 @@ cd toolverse
 pip install -r requirements.txt
 ```
 
-### Step 3: 运行爬虫 🕷️ (选择一个或多个)
+### Step 3: 一键更新 🚀
+
+```bash
+python scripts/run_pipeline.py --skip-crawlers
+```
+
+上述命令会执行数据合并和 README 更新，如果需要同时运行爬虫，可去掉 `--skip-crawlers`。
+
+### Step 4: 运行爬虫 🕷️ (选择一个或多个)
 
 ```bash
 python scripts/crawlers/reddit_crawler.py --client_id "YOUR_REDDIT_CLIENT_ID" --client_secret "YOUR_REDDIT_CLIENT_SECRET"
@@ -163,19 +171,19 @@ python scripts/crawlers/reddit_crawler.py --client_id "YOUR_REDDIT_CLIENT_ID" --
 python scripts/crawlers/huggingface_crawler.py
 ```
 
-### Step 4: 合并数据 💾
+### Step 5: 合并数据 💾
 
 ```bash
 python scripts/processors/update_yaml.py
 ```
 
-### Step 5: 更新展示 📄
+### Step 6: 更新展示 📄
 
 ```bash
 python scripts/updaters/update_readme.py
 ```
 
-### Step 6: 贡献代码 ✨
+### Step 7: 贡献代码 ✨
 
 ```bash
 git add .
@@ -238,6 +246,9 @@ pip install -r requirements.txt
 </div>
 
 项目通过 GitHub Actions 实现自动化，流程如下：
+
+在本地或其他自动化环境中，也可以运行 `scripts/run_pipeline.py` 来手动执行
+完整的更新流程，脚本会依次运行爬虫、合并数据并更新 README。
 
 <div align="center">
 
